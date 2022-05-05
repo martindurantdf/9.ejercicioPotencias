@@ -27,6 +27,7 @@ function calcularPotencia(base: number, exponente: number): number {
       for (let i: number = 2; i <= exponente; i++) {
         potencia *= base;
       }
+      break;
   }
   return potencia;
 }
